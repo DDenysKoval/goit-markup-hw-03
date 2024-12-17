@@ -111,9 +111,10 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc;
 }
-
+.header-flex {
+    border-bottom: 1px solid #e7e9fc
+}
 .nav-type {
     display: flex;
     align-items: center;
@@ -155,8 +156,16 @@ address {
 }
 
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 }
+
 
 .features-list {
     display: flex;
@@ -306,4 +315,9 @@ address {
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #fff;
+} 
+.section-one {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #2e2f42;
 } 
