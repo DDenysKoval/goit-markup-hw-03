@@ -68,8 +68,10 @@ img {
     background-color: #404bbf;
 }
 
-ul {
+ul ol {
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 a {
