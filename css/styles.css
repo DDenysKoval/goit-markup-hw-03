@@ -68,7 +68,7 @@ img {
     background-color: #404bbf;
 }
 
-ul ol {
+ul, ol {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
@@ -127,10 +127,12 @@ a {
     justify-content: space-around;
     gap: 40px;
     margin: 0;
+    padding: 24px 0;
 }
 .address-ul {
     display: flex;
     gap: 40px; 
+    margin: 0;
 }
 
 address {
